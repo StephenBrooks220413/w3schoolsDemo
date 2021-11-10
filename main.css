@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.text {
+	font-size:  20px;
+}
+
+.round {
+	border-radius: 11px;
+}
+
+.shadow {
+	box-shadow: 2px 5px 14px 9px grey;
+}
+
+.p-5 {
+	padding: 25px;
+}
+
+.icon {
+	font-size: 38px;
+}
+
+.m-5 {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/*slides css*/
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+/*slides*/
+
+.img-fluid {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 590px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+}
+
+@media(max-width: 650px){
+	.img-fluid {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		max-height: 450px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 20px;
+	}
+}
+
+.content-block-bg {
+	background-image: linear-gradient(176deg, #22313F 60%, #F4F4F4);
+	padding: 25px;
+	width: 100%;
+	height: auto;
+}
+
+.content-bg {
+	background-image: linear-gradient(176deg, #22313F 70%, #FFFFFF 70%);
+	padding: 25px;
+	width: 100%;
+	height: auto;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>W3Demo</title>
+  <link rel="stylesheet" type="text/css" href="../css/w3.css">
+  <link rel="stylesheet" type="text/css" href="../css/nav.css">
+  <link rel="stylesheet" type="text/css" href="../css/intro.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/cce4d0df7e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- navbar -->
+<nav id="nav1">
+  <div class="w3-bar fixed-top w3-border w3-card-4 w3-black">
+    <a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">About</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">Contact</a>
+    <!-- <a href="gallery.html" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">Gallery</a> -->
+    <span style="float:right; margin-right: 40px;">
+	  	<a href="" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">
+	  		<i class="far fa-user-circle"></i>
+	  	</a>
+	  </span>
+  </div>
+</nav>
+
+<nav id="nav2" class="fixed-top nav">
+  <div class="w3-bar w3-border w3-card-4 w3-black">
+	  <span style="float:left; margin-left: 35px;">
+	  	<div class="w3-dropdown-hover w3-black">
+		  <button class="w3-button">
+		  	<i class="fas fa-bars"></i>
+		  </button>
+		  <div class="w3-dropdown-content w3-bar-block w3-border">
+		    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+		    <a href="about.html" class="w3-bar-item w3-button">About</a>
+		    <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+		    <!-- <a href="gallery.html" class="w3-bar-item w3-button">Gallery</a> -->
+		  </div>
+		</div>
+	  </span>
+    <span style="float:right; margin-right: 35px;">
+	  	<div class="w3-dropdown-hover w3-black">
+		  <button class="w3-button">
+		  	<i class="far fa-user-circle"></i>
+		  </button>
+		  <div class="w3-dropdown-content w3-bar-block w3-border">
+		    <a href="#" class="w3-bar-item w3-button">signUp</a>
+		    <a href="#" class="w3-bar-item w3-button">signIn</a>
+		    <a href="#" class="w3-bar-item w3-button">Docs</a>
+		  </div>
+		</div>
+	  </span>
+  </div>
+</nav>
+
+<div class="w3-container">
+  <br><br><br><br>
+  <div class="w3-container">
+    <h1>About the Developer</h1>
+    <div class="w3-row">
+      <div class="w3-col sm12 w3-padding-16 m6 l6">
+        <img src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1085&q=80" 
+             class="img-fluid" width="100%" alt="author">
+      </div>
+      <div class="w3-col content-block-bg w3-text-white sm12 m6 l6">
+        <h1 class="display-5">Stephen Brooks</h1>
+        <p class="text">
+          Web Developer / Army Vet <br>
+        <hr>
+        <p class="text">
+          Studies and works on building web apps that are both static and dynamic
+          with several languages and tools. Resides in Oklahoma with his family and
+          enjoys teaching other how to code as an independent instructor. He still
+          occassionally builds websites for people that he meets by referrals. He
+          currently works for HealthIQ in support of their Auto Insurance Department.
+        </p>
+        </p>
+        <h1 class="display-5">Calendy Integration</h1>
+        <!-- Calendly link widget begin -->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <a href="" class="w3-button w3-black w3-ripple" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/stephenbrooks'});return false;">Schedule time with me</a>
+        <!-- Calendly link widget end -->
+      </div>
+    </div>
+    <br><br>
+    <div class="w3-row">
+      <h1 class="display-5 text-center">Courses I taught College Students In</h1>
+      <br>
+      <div class="w3-col padding sm12 m3 lg3">
+        <img src="https://cdn.educba.com/academy/wp-content/uploads/2018/09/Top-Uses-Of-JavaScript.jpg"
+             class="img-fluid"
+             alt="javascript">
+      </div>
+      <div class="w3-col padding sm12 m3 lg3">
+        <img src="https://cdn.educba.com/academy/wp-content/uploads/2018/09/Top-Uses-Of-HTML.jpg"
+             class="img-fluid"
+             alt="html">
+      </div>
+      <div class="w3-col padding sm12 m3 lg3">
+        <img src="https://miro.medium.com/max/600/1*OFsc0SD55jhi8cjo7aCA4w.jpeg"
+             class="img-fluid"
+             alt="css">
+      </div>
+      <div class="w3-col padding sm12 m3 lg3">
+        <img src="https://peerbits-wpengine.netdna-ssl.com/wp-content/uploads/2020/10/makes-node-js-fast-rectangle-1.jpg"
+             class="img-fluid"
+             alt="node">
+      </div>
+    </div>
+    <br><br>
+
+  </div>
+  <br>
+</div>
+
+<!--footer-->
+<footer class="w3-black">
+  <div class="container">
+    <div class="w3-row text-center w3-padding">
+      <div class="w3-col w3-text-white sm12 m4 l4">
+        <h3>Location</h3>
+        <address>
+          Lawton, Oklahoma 73501 <br>
+          580-309-0236
+        </address>
+      </div>
+      <div class="w3-col w3-text-white sm12 m4 l4">
+        <h3>Help</h3>
+        <a href="mailto:stephenbrooks714@gmail.com">
+          SUPPORT
+        </a> <br>
+        <a href="https://www.w3schools.com" target="_blank">
+          W3Schools
+        </a> <br>
+        <a href="resources.html">
+          Resources
+        </a>
+      </div>
+      <div class="w3-col w3-text-white sm12 m4 l4">
+        <h3>Policies</h3>
+        <p>
+          Browse and inquire at your own risk. Everything
+          is straight forward, email me for questions.
+        </p>
+      </div>
+    </div>
+    <br>
+  </div>
+</footer>
+<!--footer-->
+
+</body>
+<script type="text/javascript" src="../js/w3.js"></script>
+<script type="text/javascript" src="../js/carousel.js"></script>
+</html>
